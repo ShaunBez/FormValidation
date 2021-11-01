@@ -1,4 +1,72 @@
+h2 {
+  margin: 0 auto;
+  width: 500px;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  /* adding a border around the form */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
 body {
   font-family: Arial;
   font-size: 14px;
+}
+
+form-example {
+  display: table;
+  display: table-row;
+}
+
+/* label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+} */
+
+label {
+  padding-right: 10px;
+  text-align: start;
+  height: 20px;
+  vertical-align: text-top;
+}
+
+input {
+  text-align: start;
+  height: 25px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-left: 22px;
+  padding-left: 5px;
+  vertical-align: text-top;
+}
+
+::placeholder {
+  color: red;
+  font-style: oblique;
+  white-space: pre-line;
+  position: absolute;
+}
+
+button {
+  background-color: #696969;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.submit:hover {
+  background-color: rgb(36, 62, 117);
+  color: white;
+  transition: 0.5s;
 }
